@@ -1,14 +1,13 @@
-import React, { Fragment } from 'react'
+import React, { Fragment, useContext } from 'react'
+import { GlobalContext } from '../../context/globalContext'
+import Transaction from '../Transaction'
 
 const TransactionList = () => {
+    const { transactions } = useContext(GlobalContext)
     return (
         <Fragment>
             <h3>History</h3>
-            <ul id="list" className="list">
-                <li className="minus">
-                    Cash <span>-$400</span><button className="delete-btn">x</button>
-                </li>
-            </ul>
+            {transactions.map((transaction) => <Transaction key={transaction.id} transaction={transaction} />)}
         </Fragment>
     )
 }
