@@ -7,7 +7,9 @@ const TransactionList = () => {
     return (
         <Fragment>
             <h3>History</h3>
-            {transactions.map((transaction) => <Transaction key={transaction.id} transaction={transaction} />)}
+            <ul className="list">
+                {transactions.map(transaction => (<Transaction key={transaction.id} transaction={transaction} />))}
+            </ul>
         </Fragment>
     )
 }
