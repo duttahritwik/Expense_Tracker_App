@@ -1,22 +1,23 @@
-#Expense Tracker App
+# Expense Tracker App
 
 This is an Expense Tracker app built with React.js using the Context API for global state management and Redux for more complex state management and actions. The app allows users to track their expenses and income, categorize them, and view a summary of their financial activities.
 
-#Features
+# Features
 
-Add and remove transactions
-Categorize transactions as income or expense
-View a summary of transactions, including the total balance
-Filter transactions by category
-Responsive design for mobile and desktop devices
-Technologies Used
+- Add and remove transactions
+- Categorize transactions as income or expense
+- View a summary of transactions, including the total balance
+- Filter transactions by category
+- Responsive design for mobile and desktop devices
 
-React.js
-Context API
-Redux
-JavaScript (ES6+)
-HTML5
-CSS3
+# Technologies Used
+
+- React.js
+- Context API
+- Redux
+- JavaScript (ES6+)
+- HTML5
+- CSS3
 
 
 # Getting Started with Create React App
